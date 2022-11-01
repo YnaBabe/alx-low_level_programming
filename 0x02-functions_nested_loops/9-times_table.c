@@ -25,7 +25,7 @@ void printProductAsChar(int num1, int num2)
 	else
 	{
 		char digit1;
-		char digit2 = (resuly % 10) + '0';
+		char digit2 = (result % 10) + '0';
 
 		while (result >= 10)
 		{
