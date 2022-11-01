@@ -48,16 +48,16 @@ void jack_bauer(void)
 		else if (minute1 == '5' && minute2 == '9')
 		{
 			hour2++;
-			minute1 = minute2 = ''0';
+			minute1 = minute2 = '0';
 		}
 		else if (minute2 == '9')
 		{
 		minute1++;
 		minute2 = '0';
-	}
-	else
-	{
-		minute2++;
-	}
+		}
+		else
+		{
+			minute2++;
+		}
 	}
 }
