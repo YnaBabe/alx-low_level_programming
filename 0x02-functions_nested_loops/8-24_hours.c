@@ -20,7 +20,7 @@ int checkInDay(char hour1, char hour2)
 
 
 /**
- * jack_bauuer - prints all minutes in a day using character like a nomad
+ * jack_bauer - prints all minutes in a day using character like a nomad
  * Description: print all minutes in a day
  * Return: void
  */
@@ -40,7 +40,7 @@ void jack_bauer(void)
 		_putchar(minute1);
 		_putchar(minute2);
 		_putchar('\n');
-		if (hour2 == '9' && (minute1 == '5' && minutee2 =='9'))
+		if (hour2 == '9' && (minute1 == '5' && minute2 == '9'))
 		{
 			hour1++;
 		hour2 = minute1 = minute2 = '0';
@@ -48,8 +48,10 @@ void jack_bauer(void)
 		else if (minute1 == '5' && minute2 == '9')
 		{
 			hour2++;
-			minute1 = minute2 = '0';
+			minute1 = minute2 = ''0';
 		}
+		else if (minute2 == '9')
+		{
 		minute1++;
 		minute2 = '0';
 	}
@@ -57,5 +59,5 @@ void jack_bauer(void)
 	{
 		minute2++;
 	}
-}
+	}
 }
