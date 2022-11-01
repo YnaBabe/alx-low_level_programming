@@ -56,7 +56,7 @@ void times_table(void)
 			printProductAsChar(i, j);
 			if (j == 9)
 			{
-				_putchar('\n')
+				_putchar('\n');
 			}
 			else
 			{
