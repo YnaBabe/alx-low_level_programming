@@ -2,12 +2,12 @@
 #include <stdio.h>
 
 /**
- * printProductAsChar - prints an integer as a char
- * @num1: number
- * @num2: number
- * description: prints integer as a chaar
- * Return: void
- */
+	* printProductAsChar - prints an integer as a char
+	* @num1: number
+	* @num2: number
+	* Description: prints an integer as a char
+	* Return: void
+*/
 
 void printProductAsChar(int num1, int num2)
 {
@@ -38,10 +38,10 @@ void printProductAsChar(int num1, int num2)
 }
 
 /**
- * times_table - prints multiplication table of 9x9
- * Description: prints multiplication table of 9x9
- * Return: void
- */
+	* times_table - prints multiplication table of 9x9
+	* Description: prints multiplication table of 9x9
+	* Return: void
+*/
 
 void times_table(void)
 {
